@@ -1,0 +1,181 @@
+City,State,Category,Attraction,Description,Best_Time,Activities
+Mumbai,Maharashtra,Monument,Gateway of India,Iconic waterfront arch monument,Nov-Feb,Sightseeing; Ferry ride
+Mumbai,Maharashtra,Beach,Juhu Beach,Popular city beach with street food,Nov-Feb,Beach walk; Food tasting
+Delhi,Delhi,Monument,Red Fort,Historic Mughal fort in Old Delhi,Oct-Mar,Fort tour; Light & sound show
+Agra,Uttar Pradesh,Monument,Taj Mahal,World-famous white marble mausoleum,Oct-Mar,Sightseeing; Photography
+Jaipur,Rajasthan,Monument,Amber Fort,Hilltop fort with palaces and views,Oct-Mar,Fort visit; Elephant/jeep ride
+Udaipur,Rajasthan,Monument,City Palace,Palatial complex on Lake Pichola,Oct-Mar,Boat ride; Palace tour
+Jodhpur,Rajasthan,Monument,Mehrangarh Fort,Massive fort overlooking blue city,Oct-Mar,Fort tour; Museum
+Jaisalmer,Rajasthan,Desert,Jaisalmer Fort,Golden sandstone fort in Thar desert,Oct-Mar,Desert safari; Fort visit
+Pushkar,Rajasthan,Pilgrimage,Pushkar Lake & Brahma Temple,Holy lake and temple complex,Oct-Mar,Pilgrimage; Camel fair (seasonal)
+Ajmer,Rajasthan,Pilgrimage,Ajmer Sharif Dargah,Sufi shrine and pilgrimage site,Oct-Mar,Pilgrimage; Heritage walk
+Varanasi,Uttar Pradesh,Pilgrimage,Ganga Ghats & Kashi Vishwanath,Ancient spiritual city on the Ganges,Oct-Mar,Ganga aarti; Boat rides
+Lucknow,Uttar Pradesh,Monument,Bara Imambara,Historic complex with central hall,Oct-Mar,Heritage walk; Food tasting
+Kanpur,Uttar Pradesh,City,Nana Rao Park & Allen Forest Zoo,Urban park and zoo,Oct-Mar,Park visit; Zoo
+Prayagraj,Uttar Pradesh,Pilgrimage,Triveni Sangam,"Confluence of three rivers, Kumbh site",Oct-Mar,Pilgrimage; Boat rides
+Gorakhpur,Uttar Pradesh,Pilgrimage,Buddha Park & Gorakhnath Temple,Religious sites and parks,Oct-Mar,Temple visit; Pilgrimage
+Kanpur,Uttar Pradesh,Monument,Green Park Stadium,Cricket stadium and events venue,Oct-Mar,Sports events; Tours
+Kolkata,West Bengal,Monument,Victoria Memorial,White marble memorial and museum,Oct-Mar,Museum visit; Garden walk
+Darjeeling,West Bengal,Hill Station,Tiger Hill & Tea Gardens,Scenic Himalayan views and tea estates,Feb-Apr & Sep-Dec,Toy train; Tea estate tours
+Siliguri,West Bengal,Gateway,Coronation Bridge & Markets,Transport hub to northeast,Oct-Mar,Markets; Sightseeing
+Kolkata,West Bengal,Cultural,Howrah Bridge & Dakshineswar,Iconic bridge and temple,Oct-Mar,Riverfront; Temple visit
+Chennai,Tamil Nadu,Beach/Monument,Marina Beach & Kapaleeshwarar Temple,Long urban beach and historic temple,Nov-Feb,Beach walk; Temple visit
+Madurai,Tamil Nadu,Pilgrimage,Meenakshi Amman Temple,Grand Dravidian temple complex,Oct-Mar,Temple rituals; Architecture viewing
+Tiruchirappalli,Tamil Nadu,Monument,Rock Fort Temple,Historic fort and temple on rock outcrop,Oct-Mar,Temple visit; City views
+Pondicherry,Puducherry,Beach/Cultural,Promenade & French Quarter,Colonial architecture and beaches,Nov-Feb,Cafe hopping; Beach walk
+Mahabalipuram,Tamil Nadu,Monument,Shore Temples & Krishna's Butterball,UNESCO rock-cut temples by the sea,Oct-Mar,Sightseeing; Photography
+Coimbatore,Tamil Nadu,Gateway,Marudamalai Temple & Textile hubs,Industrial city near Western Ghats,Sep-Mar,Temple visit; Shopping
+Ooty,Tamil Nadu,Hill Station,Nilgiri Hills & Ooty Lake,Scenic hill station with botanical gardens,Sep-May,Boating; Trekking
+Kodaikanal,Tamil Nadu,Hill Station,Kodaikanal Lake & Pillar Rocks,Popular hill resort with lakes and viewpoints,Oct-Mar,Boating; Nature walks
+Bengaluru,Karnataka,City,Lalbagh Garden & Bangalore Palace,Garden city and IT hub,Oct-Mar,Park visit; Nightlife
+Mysore,Karnataka,Monument,Mysore Palace,Royal palace with evening light show,Oct-Mar,Palace tour; Cultural shows
+Coorg (Kodagu),Karnataka,Hill Station,Coffee Plantations & Abbey Falls,Hilly district known for coffee and greenery,Oct-Mar,Trekking; Coffee tours
+Mangalore,Karnataka,Beach,Panambur Beach,Coastal city beach and port,Oct-Mar,Beach walk; Seafood
+Udupi,Karnataka,Pilgrimage/Beach,Sri Krishna Temple & Malpe Beach,Famous Krishna temple & nearby beach,Oct-Mar,Temple visit; Beach activities
+Goa,Goa,Beach,Calangute Beach,One of Goa's most visited beaches,Nov-Feb,Water sports; Nightlife
+Goa,Goa,Monument,Basilica of Bom Jesus,UNESCO baroque church with relics of St. Francis Xavier,Nov-Feb,Heritage visit; Church tours
+Panjim,Goa,Cultural,Fontainhas (Latin Quarter),Portuguese-influenced neighborhood with colorful houses,Nov-Feb,Walking tours; Cafes
+Pune,Maharashtra,Historical,Shaniwar Wada,18th-century fortification and ruins,Oct-Mar,Heritage walk; Museum
+Pune,Maharashtra,Gateway,Sinhagad Fort,Historic fort popular for trekking,Oct-Mar,Trekking; Paragliding nearby
+Ahmednagar,Maharashtra,Historical,Ahmednagar Fort & Tombs,Historic fort with heritage sites,Oct-Mar,Heritage sightseeing
+Mahabaleshwar,Maharashtra,Hill Station,Venna Lake & Arthur's Seat,Hill station with viewpoints and lakes,Oct-Mar,Boating; Viewpoints
+Aurangabad,Maharashtra,Monument,Ajanta & Ellora Caves (nearby),Rock-cut cave monuments and paintings,Oct-Mar,Cave tours; Archaeology
+Nashik,Maharashtra,Pilgrimage/Wine,Trimbakeshwar Temple & Vineyards,Pilgrimage site and emerging wine region,Oct-Mar,Temple visit; Wine tours
+Nagpur,Maharashtra,City,Deekshabhoomi & Seminary Hills,Cultural and administrative center,Oct-Mar,Sightseeing; Nature walks
+Thane,Maharashtra,Lakes,Upvan Lake & Yeoor Hills,Suburban lakes and hill trails,Oct-Mar,Boating; Trekking
+Surat,Gujarat,City,Textile markets & Dumas Beach,Commercial city known for diamonds and textiles,Oct-Mar,Shopping; Beach walk
+Vadodara,Gujarat,Monument,Laxmi Vilas Palace,Royal palace of Baroda with large grounds,Oct-Mar,Palace tour; Museum
+Ahmedabad,Gujarat,Monument,Sabarmati Ashram,Gandhi's ashram and heritage site,Oct-Mar,Heritage walk; Museum
+Dwarka,Gujarat,Pilgrimage,Dwarkadhish Temple,Important Krishna temple and pilgrimage city,Oct-Mar,Pilgrimage; Beach visit
+Somnath,Gujarat,Pilgrimage,Somnath Temple,Ancient temple on the Arabian Sea,Oct-Mar,Pilgrimage; Beach view
+Bhuj,Gujarat,Cultural,Rann of Kutch (nearby),Salt marsh and seasonal festival site,Nov-Feb,Desert safari; Cultural festival
+Jamnagar,Gujarat,Beach,Marine National Park & Beaches,Coastal wildlife and beaches,Oct-Mar,Wildlife; Beach walk
+Rann of Kutch,Gujarat,Festival/Nature,Great Rann Salt Desert,Vast salt desert with seasonal white plains,Nov-Feb,Festival; Photography
+Bhopal,Madhya Pradesh,City,Upper Lake & Taj-ul-Masajid (nearby),Lakeside city with heritage sites,Oct-Mar,Boating; Heritage walk
+Indore,Madhya Pradesh,Food/Market,Sarafa Bazaar & Rajwada,Culinary hub with historic palace,Oct-Mar,Food walks; Heritage tours
+Gwalior,Madhya Pradesh,Monument,Gwalior Fort,Hill fort with palaces and temples,Oct-Mar,Fort tour; Light show
+Khajuraho,Madhya Pradesh,Monument,Khajuraho Temples,Group of Hindu & Jain temples with sculptures,Oct-Mar,Temple tour; Dance festival (seasonal)
+Orchha,Madhya Pradesh,Heritage,Orchha Fort & Cenotaphs,Riverside fort town with palaces,Oct-Mar,Heritage walking; Photography
+Amritsar,Punjab,Pilgrimage,Golden Temple,Sacred Sikh shrine with communal kitchen,Oct-Mar,Pilgrimage; Langar experience
+Chandigarh,Chandigarh,Planned City,Rock Garden & Sukhna Lake,Planned modern city with gardens and lake,Oct-Mar,Park visit; Boating
+Ludhiana,Punjab,Industrial,Rural Cottages & Local Markets,Textile and industrial city,Oct-Mar,Shopping; Local tours
+Jalandhar,Punjab,Sport,Wagah Border (nearby),Border ceremony and historic sites,Oct-Mar,Border ceremony; Museums
+Hoshiarpur,Punjab,Gateway,Religious & Natural sites,Hilly outskirts and temples,Oct-Mar,Trekking; Pilgrimage
+Shimla,Himachal Pradesh,Hill Station,The Ridge & Mall Road,Colonial hill station with Himalayan views,Mar-Jun; Sep-Nov,Shopping; Scenic walks
+Manali,Himachal Pradesh,Adventure,Hadimba Temple & Solang Valley,Himalayan town famous for adventure sports,Dec-Feb (snow); May-Jun,Paragliding; Skiing; Trekking
+Dharamshala,Himachal Pradesh,Cultural,McLeod Ganj & Bhagsu Falls,Tibetan cultural center and waterfalls,Mar-Jun; Sep-Nov,Trekking; Spiritual tours
+Kullu,Himachal Pradesh,Adventure,River rafting on Beas & Dussehra festival,Valley known for festivals and rafting,Apr-Jun; Sep-Nov,Rafting; Festivals
+Kangra,Himachal Pradesh,Monument,Kangra Fort & Temples,Historic fort and cultural sites,Oct-Mar,Heritage visit; Nature walks
+Leh,Ladakh,Adventure,Pangong Lake & Nubra Valley,High altitude desert with lakes and monasteries,Jun-Sep,Trekking; Biking; Camping
+Srinagar,Jammu & Kashmir,Adventure/Cultural,Dal Lake & Mughal Gardens,Famous houseboats and gardens,Apr-Oct,Shikara rides; Garden visits
+Gulmarg,Jammu & Kashmir,Adventure,Skiing slopes & Gondola,Ski resort and alpine meadows,Dec-Mar (skiing); Apr-Jun,Skiing; Gondola; Trekking
+Jammu,Jammu & Kashmir,Pilgrimage,Vaishno Devi (nearby),Major pilgrimage site in the hills,Oct-Mar,Pilgrimage; Trekking
+Leh,Ladakh,Monument,Thiksey & Hemis Monasteries,Important Buddhist monasteries,Jun-Sep,Monastery tours; Cultural visits
+Kohima,Nagaland,Cultural,Kohima War Cemetery & Local Villages,Capital with WWII memorial and tribal culture,Oct-Mar,Cultural tours; Nature trails
+Dimapur,Nagaland,Market,Local bazaars & Naga textile markets,Commercial center for Nagaland,Oct-Mar,Shopping; Cultural exploration
+Imphal,Manipur,Cultural,Loktak Lake & Kangla Fort,Scenic lake and historic fort,Oct-Mar,Boat rides; Heritage tours
+Aizawl,Mizoram,Hill Station,Durtlang & Hmuifang,Hilltop viewpoints and tribal culture,Oct-Mar,Trekking; Cultural visits
+Shillong,Meghalaya,Hill Station,Shillong Peak & Elephant Falls,Lively hill town with waterfalls,Oct-Mar,Nature trails; Waterfall visits
+Cherrapunji,Meghalaya,Nature,Living Root Bridges & Nohkalikai Falls,Wettest place with unique root bridges,Oct-Mar,Trekking; Nature exploration
+Guwahati,Assam,Cultural,Kamakhya Temple & Brahmaputra River,Gateway to northeast with riverfront temple,Oct-Mar,Temple visit; River cruises
+Tezpur,Assam,Heritage,Agnigarh & Cole Park,Historic town with riverside parks,Oct-Mar,Sightseeing; Cultural walks
+Port Blair,Andaman & Nicobar,Beach/Island,Cellular Jail & Radhanagar Beach (Havelock),Colonial prison and pristine beaches nearby,Oct-May,Island tours; Snorkeling
+Havelock Island,Andaman & Nicobar,Beach,Radhanagar Beach,Renowned for white sand and clear water,Oct-May,Swimming; Snorkeling
+Port Blair,Andaman & Nicobar,Adventure,Scuba Diving & Coral reefs,Diving and marine life hotspots,Oct-May,Scuba diving; Boat tours
+Kavaratti,Lakshadweep,Beach/Island,Agatti & Bangaram (nearby),Coral islands with lagoons,Oct-May,Snorkeling; Beach activities
+Kochi,Kerala,Cultural,Fort Kochi & Chinese Fishing Nets,Historic port with colonial heritage,Sep-Mar,Heritage walks; Backwater cruises
+Alappuzha (Alleppey),Kerala,Backwaters,Alleppey Backwaters & Houseboats,Backwater canals with houseboat stays,Sep-Mar,Houseboat cruise; Village tours
+Kovalam,Kerala,Beach,Kovalam Beach & Lighthouse,Popular beach near Thiruvananthapuram,Oct-Mar,Beach; Surfing
+Thiruvananthapuram,Kerala,Monument,Padmanabhaswamy Temple,Historic temple with Dravidian architecture,Oct-Mar,Temple visit; Cultural tours
+Kochi,Kerala,Culinary,Spice Markets & Jew Town,Historic spice trade center with Jewish heritage,Sep-Mar,Market tours; Cultural shows
+Munnar,Kerala,Hill Station,Tea Plantations & Eravikulam NP,High range tea estates and national park,Sep-Mar,Tea tours; Trekking
+Wayanad,Kerala,Nature,Edakkal Caves & Wildlife,Hilly district with caves and forests,Oct-Mar,Trekking; Wildlife spotting
+Kanyakumari,Tamil Nadu,Beach,Vivekananda Rock & Sunrise Point,Southern tip of India with sunrise views,Oct-Mar,Sunrise viewing; Temple visit
+Rameswaram,Tamil Nadu,Pilgrimage,Ramanathaswamy Temple,Important pilgrimage site connected by Pamban Bridge,Oct-Mar,Pilgrimage; Beach visits
+Madikeri (Coorg),Karnataka,Hill Station,Abbey Falls & Raja's Seat,Coffee hills with waterfalls and viewpoints,Oct-Mar,Trekking; Coffee tours
+Vishakhapatnam,Andhra Pradesh,Beach/Adventure,Ramakrishna Beach & Araku Valley (nearby),Coastal city with nearby hill station and valleys,Oct-Mar,Beach; Trekking; Coffee tours
+Tirupati,Andhra Pradesh,Pilgrimage,Tirumala Venkateswara Temple,One of world's richest pilgrimage temples,Oct-Mar,Pilgrimage; Prasad distribution
+Hyderabad,Telangana,Monument,Charminar & Golconda Fort,Historic monuments and pearl markets,Oct-Mar,Shopping; Fort tours
+Warangal,Telangana,Monument,Warangal Fort & Thousand Pillar Temple,Kakatiya-era heritage sites,Oct-Mar,Heritage tours; Temple visits
+Vijayawada,Andhra Pradesh,Pilgrimage,Kanaka Durga Temple & Krishna River,Riverside pilgrim city,Oct-Mar,Temple visit; Riverfront
+Bhubaneswar,Odisha,Monument,Lingaraja Temple & Konark Sun Temple (nearby),Temple city with ancient architecture,Oct-Mar,Temple tours; Heritage
+Puri,Odisha,Beach/Pilgrimage,Jagannath Temple & Puri Beach,Major pilgrimage and beach destination,Oct-Mar,Pilgrimage; Beach activities
+Konark,Odisha,Monument,Sun Temple,Sun temple and nearby beach of Chandrabhaga,Oct-Mar,Heritage visit; Beach walk
+Sikkim (Gangtok),Sikkim,Hill Station,MG Road & Rumtek Monastery,Hill capital with monasteries and Himalayan views,Mar-Jun; Sep-Nov,Trekking; Monastery tours
+Leh,Ladakh,Adventure,Tso Moriri & Tso Pangong (nearby),High altitude lakes with unique landscapes,Jun-Sep,Camping; Photography
+Mumbai,Maharashtra,Monument,Chhatrapati Shivaji Maharaj Terminus (CSMT),Historic Victorian Gothic railway station (UNESCO),Nov-Feb,Heritage sightseeing; Photography
+Mumbai,Maharashtra,Park,Sanjay Gandhi National Park,Large protected area with Kanheri Caves and wildlife,Nov-Feb,Trekking; Cave visit; Wildlife spotting
+Mumbai,Maharashtra,Beach,Girgaum Chowpatty,Popular urban beach with festive celebrations,Nov-Feb,Evening walks; Street food
+Mumbai,Maharashtra,Monument,Haji Ali Dargah,Mosque and tomb on a small islet connected by causeway,Nov-Feb,Pilgrimage; Sea views
+Mumbai,Maharashtra,Market,Colaba Causeway,Shopping street famous for boutiques and street stalls,Nov-Feb,Shopping; Street food
+Mumbai,Maharashtra,Museum,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya (Prince of Wales Museum),Major museum with art and artifacts,Nov-Feb,Museum visit; Cultural learning
+Mumbai,Maharashtra,Garden,Hanging Gardens (Ferozeshah Mehta Gardens),Terraced gardens with city views,Nov-Feb,Leisure walks; Sunset views
+Mumbai,Maharashtra,Neighborhood,Bandra Bandstand & Bandra Fort,Seafront promenade with historic fort and celebrity spots,Nov-Feb,Seafront walks; Sunset photography
+Mumbai,Maharashtra,Cultural,Mani Bhavan Gandhi Museum,Museum dedicated to Mahatma Gandhi,Nov-Feb,Museum tour; History
+Mumbai,Maharashtra,Temple,Shree Siddhivinayak Temple,Famous Ganesh temple visited by devotees and celebrities,Nov-Feb,Pilgrimage; Religious rituals
+Delhi,Delhi,Monument,Qutub Minar,Tall minaret and UNESCO site with ancient ruins,Oct-Mar,Heritage walk; Photography
+Delhi,Delhi,Monument,Humayun's Tomb,Mughal-era garden tomb and UNESCO site,Oct-Mar,Heritage; Photography
+Delhi,Delhi,Memorial,India Gate & Rajpath,War memorial and central ceremonial avenue,Oct-Mar,Evening walks; Photography
+Delhi,Delhi,Religious,Jama Masjid,One of India's largest mosques in Old Delhi,Oct-Mar,Sightseeing; Market visit
+Delhi,Delhi,Market,Chandni Chowk & Old Delhi bazaars,Historic shopping district with street food,Oct-Mar,Food tour; Shopping
+Delhi,Delhi,Garden,Lodi Gardens,Historic gardens with tombs and open lawns,Oct-Mar,Jogging; Picnics; Photography
+Delhi,Delhi,Museum,National Museum,"Major museum with Indian art, history and archeology",Oct-Mar,Museum tours; Exhibitions
+Delhi,Delhi,Temple,Akshardham Temple,Modern Hindu temple complex with exhibitions and shows,Oct-Mar,Exhibitions; Light & sound show
+Delhi,Delhi,Archaeological,Purana Qila & Archaeological Park,Ancient fort and ruins with garden area,Oct-Mar,History; Boat rides
+Delhi,Delhi,Cultural,Dilli Haat (INA & Pitampura),"Craft bazaar showcasing Indian arts, crafts and food",Oct-Mar,Shopping; Cultural events
+Goa,Goa,Beach,Baga Beach,Popular beach with nightlife and water sports,Nov-Feb,Water sports; Clubs and nightlife
+Goa,Goa,Beach,Anjuna Beach & Flea Market,Beach known for hippie culture and Sunday flea market,Nov-Feb,Shopping; Beach parties
+Goa,Goa,Beach,Vagator Beach,Clifftop beach with scenic views and parties,Nov-Feb,Sunset views; Parties
+Goa,Goa,Beach,Palolem Beach (South Goa),Scenic crescent-shaped beach popular for relaxation,Nov-Feb,Kayaking; Relaxation
+Goa,Goa,Fort,Chapora Fort,Fort overlooking Vagator and Arabian sea,Nov-Feb,Sightseeing; Sunset photography
+Goa,Goa,Heritage,"Old Goa Churches (Basilica of Bom Jesus, Se Cathedral)",UNESCO religious heritage and Portuguese architecture,Nov-Feb,Heritage tours; Church visits
+Goa,Goa,Waterfall,Dudhsagar Falls,Tall waterfall on Mandovi river (monsoon-fed),Oct-Mar (post-monsoon),Trekking; Jeep safaris
+Goa,Goa,Beach,Morjim Beach,Quiet beach known for olive ridley turtle nesting,Nov-Feb,Beach; Turtle watching (seasonal)
+Visakhapatnam,Andhra Pradesh,Beach,Ramakrishna Beach (RK Beach),Main city beach with promenade,Oct-Mar,Beach walk; Sunset
+Visakhapatnam,Andhra Pradesh,Beach,Rushikonda Beach,Popular golden-sand beach ideal for water sports,Oct-Mar,Surfing; Water sports
+Visakhapatnam,Andhra Pradesh,Park,Kailasagiri,Hilltop park with panoramic sea views and ropeway,Oct-Mar,Ropeway; Scenic views
+Visakhapatnam,Andhra Pradesh,Museum,INS Kurusura Submarine Museum,Museum inside a decommissioned submarine,Oct-Mar,Museum tours; Naval history
+Visakhapatnam,Andhra Pradesh,Beach,Yarada Beach,Secluded beach with rocky cliffs,Oct-Mar,Beach; Photography
+Visakhapatnam,Andhra Pradesh,Nature,Dolphin's Nose & Lighthouse,Prominent headland with lighthouse and views,Oct-Mar,Viewpoints; Photography
+Visakhapatnam,Andhra Pradesh,Cave,Borra Caves (nearby),Limestone caves with stalactites and stalagmites,Oct-Mar,Cave exploration; Photography
+Visakhapatnam,Andhra Pradesh,Valley,Araku Valley (nearby),Coffee-growing hill station with scenic valleys,Oct-Mar,Train rides; Coffee tours
+Bengaluru,Karnataka,Garden,Lalbagh Botanical Garden,Historic botanical garden with glasshouse,Oct-Mar,Garden walks; Flower shows
+Bengaluru,Karnataka,Park,Cubbon Park,Large green space in the city center,Oct-Mar,Leisure; Jogging; Museums nearby
+Bengaluru,Karnataka,Palace,Bangalore Palace,Palatial building inspired by Windsor Castle,Oct-Mar,Heritage tours; Events
+Bengaluru,Karnataka,Zoo,Bannerghatta Biological Park,Wildlife park with safaris and zoo,Oct-Mar,Safari; Zoo
+Bengaluru,Karnataka,Market,MG Road & Brigade Road,Shopping and nightlife streets,Oct-Mar,Shopping; Dining
+Chennai,Tamil Nadu,Beach,Marina Beach,Longest natural urban beach in India,Nov-Feb,Beach walk; Local snacks
+Chennai,Tamil Nadu,Temple,Kapaleeshwarar Temple,Ancient Dravidian temple in Mylapore,Oct-Mar,Temple rituals; Festivities
+Chennai,Tamil Nadu,Fort,Fort St. George,Historic fort housing a museum and cathedral,Oct-Mar,Museum; Heritage tours
+Chennai,Tamil Nadu,Zoo,Guindy National Park & Children’s Park,Small national park within city limits,Oct-Mar,Nature; Picnics
+Kolkata,West Bengal,Monument,Howrah Bridge,Iconic cantilever bridge over Hooghly River,Oct-Mar,River views; Photos
+Kolkata,West Bengal,Monument,Dakshineswar Kali Temple,Famous Kali temple on the riverbank,Oct-Mar,Temple visits; Pilgrimage
+Kolkata,West Bengal,Museum,Indian Museum,One of the oldest museums in India with varied collections,Oct-Mar,Museum tour; Education
+Kolkata,West Bengal,Spiritual,Belur Math,Monastery of Ramakrishna Mission with riverside setting,Oct-Mar,Spiritual visits; Architecture
+Hyderabad,Telangana,Monument,Charminar,Historic minaret and city landmark,Oct-Mar,Shopping; Sightseeing
+Hyderabad,Telangana,Fort,Golconda Fort,Massive ruined fort with sound & light shows,Oct-Mar,Heritage tours; Light shows
+Hyderabad,Telangana,Film City,Ramoji Film City (nearby),Large film studio complex and theme park,Oct-Mar,Studio tours; Theme attractions
+Hyderabad,Telangana,Museum,Salar Jung Museum,One of the largest art museums with eclectic collections,Oct-Mar,Museum tours; Collections viewing
+Pune,Maharashtra,Museum,Aga Khan Palace,Historic palace associated with Gandhi's legacy,Oct-Mar,Heritage tours; Museum
+Agra,Uttar Pradesh,Monument,Agra Fort,Historic red sandstone fort near Taj Mahal,Oct-Mar,Fort visit; History
+Agra,Uttar Pradesh,Garden,Mehtab Bagh,Garden complex opposite Taj providing sunset views,Oct-Mar,Photography; Sunset views
+Varanasi,Uttar Pradesh,Ghat,Dashashwamedh Ghat,Famous ghat for Ganga aarti and rituals,Oct-Mar,Boat rides; Aarti
+Varanasi,Uttar Pradesh,Temple,Sarnath (nearby),Buddhist pilgrimage site where Buddha taught first sermon,Oct-Mar,Heritage tours; Archaeology
+Rishikesh,Uttarakhand,Adventure,Ram Jhula & Laxman Jhula,Suspension bridges and spiritual area,Sep-Nov; Feb-Apr,Yoga; River rafting; Spiritual retreats
+Rishikesh,Uttarakhand,Adventure,River Rafting on Ganges (nearby),White-water rafting stretches and camps,Oct-Mar,Rafting; Camping
+Leh,Ladakh,Lake,Pangong Tso,High-altitude lake spanning India-China border,Jun-Sep,Photography; Camping
+Leh,Ladakh,Valley,Nubra Valley & Diskit Monastery,Cold desert valley with sand dunes and monasteries,Jun-Sep,Camel rides; Monastery tours
+Alappuzha,Kerala,Backwaters,Kuttanad & Backwater villages,Rice bowl of Kerala with inland waterways,Sep-Mar,Houseboat; Village tours
+Munnar,Kerala,Hill Station,Eravikulam National Park,National park home to Nilgiri tahr and scenic trails,Sep-Mar,Trekking; Wildlife viewing
+Gangtok,Sikkim,Monastery,Rumtek Monastery,Major Tibetan monastery near Gangtok,Mar-Jun; Sep-Nov,Monastery visits; Cultural tours
+Cherrapunji,Meghalaya,Nature,Nohkalikai Falls & Living Root Bridges,Spectacular waterfalls and root bridge trails,Oct-Mar,Trekking; Nature exploration
+Konark,Odisha,Monument,Konark Sun Temple,12th-century Sun Temple and UNESCO heritage site,Oct-Mar,Heritage; Photography
+Puri,Odisha,Beach,Puri Beach & Jagannath Temple,Pilgrimage and beach town with annual festivals,Oct-Mar,Pilgrimage; Beach activities
+Ahmedabad,Gujarat,Heritage,Bhadra Fort & Pol Houses (Old City),Historic city core with heritage architecture,Oct-Mar,Walking tours; Heritage
+Bhuj,Gujarat,Festival,Rann Utsav (seasonal),Cultural festival on the Rann of Kutch,Nov-Feb,Festival; Crafts
+Srinagar,Jammu & Kashmir,Lake,Dal Lake Houseboats,Iconic houseboats and shikara rides,Apr-Oct,Shikara; Houseboat stay
+Srinagar,Jammu & Kashmir,Garden,"Mughal Gardens (Shalimar Bagh, Nishat)",Historic Mughal-era gardens,Apr-Oct,Gardens; Photography
+Amritsar,Punjab,Monument,Jallianwala Bagh,Historic site and memorial,Oct-Mar,Memorial visit; History
+Chandigarh,Chandigarh,Garden,Rose Garden & Rock Garden,Large city gardens and sculpture park,Oct-Mar,Garden walks; Photography
+Patna,Bihar,Heritage,Golghar & Patna Sahib Gurdwara,Historic granary and Sikh shrine,Oct-Mar,Heritage; Pilgrimage
+Bhubaneswar,Odisha,Temple,Khandagiri & Udayagiri Caves,Ancient Jain rock-cut caves and archaeological sites,Oct-Mar,Cave tours; Heritage

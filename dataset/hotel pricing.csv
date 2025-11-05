@@ -1,0 +1,104 @@
+City,State,Hotel_Name,Price_Per_Night_INR,Rating,Num_Reviews,Address,Source_URL
+Mumbai,Maharashtra,"The Taj Mahal Palace, Mumbai",22000,4.6,1004,"Apollo Bandar, Colaba, Mumbai",https://www.tajhotels.com/en-in/hotels/taj-mahal-palace-mumbai
+Mumbai,Maharashtra,"The Oberoi, Mumbai",20000,4.8,1999,"Nariman Point, Mumbai",https://www.oberoihotels.com/hotels-in-mumbai/
+Mumbai,Maharashtra,"The St. Regis, Mumbai",18000,4.6,2500,"Lower Parel, Mumbai",https://www.marriott.com/en-us/hotels/bomxr-the-st-regis-mumbai/overview/
+New Delhi,Delhi,"The Taj Mahal Hotel, New Delhi",20000,4.7,2200,"Taj Mansingh Marg, New Delhi",https://www.booking.com/hotel/in/the-taj-mahal-new-delhi.html
+New Delhi,Delhi,The Leela Palace New Delhi,18000,4.6,3500,"Chanakyapuri, New Delhi",https://www.theleela.com/the-leela-palace-new-delhi/
+New Delhi,Delhi,"ITC Maurya, a Luxury Collection Hotel, New Delhi",15000,4.5,8000,"Sardar Patel Marg, Diplomatic Enclave, New Delhi",https://www.itchotels.in/hotels/itcmaurya-newdelhi.html
+Goa,Goa,"Taj Exotica Resort & Spa, Benaulim",16000,4.5,4200,"Benaulim, Salcete, Goa",https://www.tajhotels.com/en-in/taj/taj-exotica-goa/
+Goa,Goa,"W Goa, Vagator",15000,4.4,3000,"Vagator, North Goa",https://www.marriott.com/en-us/hotels/goiwh-w-goa/overview/
+Goa,Goa,Alila Diwa Goa,12000,4.5,2500,"Majorda, South Goa",https://www.alilahotels.com/diwa-goa
+Visakhapatnam,Andhra Pradesh,The Park Visakhapatnam,6000,4.1,1500,"RK Beach Road, Visakhapatnam",https://www.theparkhotels.com/hotel/the-park-visakhapatnam/
+Visakhapatnam,Andhra Pradesh,Novotel Visakhapatnam Varun Beach,7000,4.2,2100,"Beach Road, Visakhapatnam",https://www.accorhotels.com/gb/hotel-8486-novotel-visakhapatnam-varuna-beach/index.shtml
+Visakhapatnam,Andhra Pradesh,Ginger Vizag,2500,3.9,800,"MVP Colony / Beach Road, Visakhapatnam",https://www.gingerhotels.com/
+Bengaluru,Karnataka,"Taj West End, Bengaluru",14000,4.6,1800,"Race Course Road, Bengaluru",https://www.tajhotels.com/en-in/taj/taj-west-end-bengaluru/
+Bengaluru,Karnataka,The Leela Palace Bengaluru,15000,4.6,1600,"Old Airport Road, Bengaluru",https://www.theleela.com/the-leela-palace-bengaluru/
+Bengaluru,Karnataka,ITC Windsor,9000,4.4,1200,"Race Course Road, Bengaluru",https://www.itchotels.com/itcwindsor
+Chennai,Tamil Nadu,"Taj Coromandel, Chennai",9000,4.5,2100,"Nungambakkam, Chennai",https://www.tajhotels.com/en-in/taj/taj-coromandel-chennai/
+Chennai,Tamil Nadu,"ITC Grand Chola, Chennai",10000,4.5,4000,"Guindy, Chennai",https://www.itchotels.com/itcgrandchola
+Kolkata,West Bengal,The Oberoi Grand Kolkata,12000,4.5,2000,"Jawaharlal Nehru Road, Kolkata",https://www.oberoihotels.com/hotels-in-kolkata/
+Kolkata,West Bengal,Taj Bengal Kolkata,10000,4.4,1800,"Ballygunge, Kolkata",https://www.tajhotels.com/en-in/taj/taj-bengal-kolkata/
+Hyderabad,Telangana,"Taj Falaknuma Palace, Hyderabad",30000,4.6,2400,"Falaknuma, Hyderabad",https://www.tajhotels.com/en-in/taj/taj-falaknuma-palace-hyderabad/
+Hyderabad,Telangana,Park Hyatt Hyderabad,12000,4.4,1500,"Banjara Hills, Hyderabad",https://www.hyatt.com/en-US/hotel/india/park-hyatt-hyderabad/hydph
+Jaipur,Rajasthan,"Rambagh Palace, Jaipur",25000,4.7,1400,"Bhawani Singh Road, Jaipur",https://www.tajhotels.com/en-in/taj/rambagh-palace-jaipur/
+Jaipur,Rajasthan,Trident Jaipur,6000,4.3,2300,"Tonk Road, Jaipur",https://www.tridenthotels.com/jaipur
+Agra,Uttar Pradesh,"ITC Mughal, Agra",9000,4.5,1900,"Taj Ganj, Agra",https://www.itchotels.com/itcmughalagra
+Agra,Uttar Pradesh,"The Oberoi Amarvilas, Agra",28000,4.8,2300,"Taj East Gate Road, Agra",https://www.oberoihotels.com/hotels-in-agra/oberoi-amarvilas/
+Varanasi,Uttar Pradesh,"Taj Ganges, Varanasi",12000,4.4,900,"Ramnagar Road, Varanasi",https://www.tajhotels.com/en-in/taj/taj-ganges-varanasi/
+Varanasi,Uttar Pradesh,Benares Haveli,4000,4.1,600,Assi Ghat / Old Varanasi,https://www.booking.com
+Kochi,Kerala,"Brunton Boatyard, Kochi",9000,4.4,1200,"Fort Kochi, Kochi",https://www.tajhotels.com/en-in/taj/brunton-boatyard-cochin/
+Alappuzha (Alleppey),Kerala,Houseboat (premium) - Alleppey Backwaters,8000,4.3,2000,Alleppey (various houseboats),https://www.keralatourism.org/
+Munnar,Kerala,Tea County Munnar (CGH Earth),6000,4.2,900,"Munnar town, Idukki",https://www.cghearth.com/tea-county-munnar
+Leh,Ladakh,The Grand Dragon Ladakh,8000,4.1,700,"Leh town, Ladakh",https://granddragonladakh.com/
+Leh,Ladakh,The Himalayan Ladakh,7000,4,500,"Leh town, Ladakh",https://www.booking.com
+Rishikesh,Uttarakhand,Aloha on the Ganges,4500,4.1,800,"Laxman Jhula area, Rishikesh",https://www.alohaontheganges.com/
+Haridwar,Uttarakhand,Aalia Resort Haridwar,6000,4.2,500,"Haridwar bypass, Haridwar",https://www.booking.com
+Manali,Himachal Pradesh,The Himalayan (Manali),5000,4,700,Old Manali area,https://www.booking.com
+Shimla,Himachal Pradesh,"The Oberoi Cecil, Shimla",12000,4.5,600,"The Mall, Shimla",https://www.oberoihotels.com/hotels-in-shimla/oberoi-cecil-shimla/
+Udaipur,Rajasthan,"Taj Lake Palace, Udaipur",30000,4.7,1500,"Lake Pichola, Udaipur",https://www.tajhotels.com/en-in/taj/taj-lake-palace-udaipur/
+Jodhpur,Rajasthan,"Umaid Bhawan Palace, Jodhpur",25000,4.6,1200,"Circuit House Road, Jodhpur",https://www.umaidbhawanpalacejodhpur.com/
+Darjeeling,West Bengal,"Windamere Hotel, Darjeeling",7000,4.3,400,"North Point, Darjeeling",https://www.windamerehotel.in/
+Gangtok,Sikkim,Mayfair Spa Resort & Casino (Gangtok),9000,4.2,500,"Tadong, Gangtok",https://www.mayfairhotels.com/
+Shillong,Meghalaya,"The Pearl of the Orient, Shillong",5000,4,300,"Police Bazar area, Shillong",https://www.booking.com
+Cherrapunji,Meghalaya,Cherrapunjee Holiday Resort,3500,4,200,Cherrapunji area,https://www.booking.com
+Ahmedabad,Gujarat,Gujarat International Finance Tec-City (GIFT) hotels - Zydus Hospitality example,6000,4,200,GIFT City / Ahmedabad,https://www.booking.com
+Gir,Gujarat,The Fern Gir Forest Resort,6000,4,300,Near Gir National Park,https://www.thefernhotels.com/gir
+Bhubaneswar,Odisha,"Mayfair Lagoon, Bhubaneswar",8000,4.3,600,"Jayadev Vihar, Bhubaneswar",https://www.mayfairhotels.com/
+Puri,Odisha,"Mayfair Waves, Puri",7000,4.2,800,"Puri beach road, Puri",https://www.mayfairhotels.com/
+Konark,Odisha,Konark Resort (local),3500,3.9,150,"Near Sun Temple, Konark",https://www.booking.com
+Visakhapatnam,Andhra Pradesh,Fortune Park Bay Island (Vizag),4500,4,700,"Beach Road, Vizag",https://www.fortunegroup.com/
+Patna,Bihar,Hotel Maurya Patna,4000,4,900,"Beer Chand Patel Marg, Patna",https://www.booking.com
+Ranchi,Jharkhand,JW Marriott Ranchi (approx),8000,4.2,300,Ranchi city,https://www.marriott.com
+Bhopal,Madhya Pradesh,Jehan Numa Palace (Bhopal),5000,4,400,Bhopal city,https://www.booking.com
+Indore,Madhya Pradesh,Sayaji Indore,4500,4.1,600,"MG Road, Indore",https://www.sayajihotels.com/indore
+Port Blair,Andaman & Nicobar,SeaShell Port Blair,5000,4,700,"Connaught Place, Port Blair",https://www.booking.com
+Havelock Island,Andaman & Nicobar,"Taj Exotica Resort & Spa, Andamans",20000,4.5,1200,Havelock Island (Radhanagar),https://www.tajhotels.com/en-in/taj/taj-exotica-resort-and-spa-andamans/
+Kavaratti,Lakshadweep,Bangaram Island Resort (approx),15000,4.3,400,Lakshadweep islands,https://www.booking.com
+Kanyakumari,Tamil Nadu,Sparsa Resort Kanyakumari,4000,4.1,500,"Near Vivekananda Rock, Kanyakumari",https://www.booking.com
+Rameswaram,Tamil Nadu,Daiwik Rameswaram,3500,4,400,"Near Ramanathapuram highway, Rameswaram",https://www.booking.com
+Multiple,Multiple,OYO Budget Hotel (sample),1500,3.5,300,Varies by city,https://www.oyorooms.com/
+Multiple,Multiple,Treebo / FabHotel (sample),2000,3.8,400,Varies by city,https://www.treebo.com/
+Mumbai,Maharashtra,Milan Guest House,1500,3.8,8,"Grant Road / Khetwadi area, Mumbai",https://www.hotels.com/ho575619/milan-guest-house-mumbai-india/
+New Delhi,Delhi,Smyle Inn (Paharganj),1200,4,15000,"Main Bazaar, Paharganj, New Delhi",https://smyleinn.com/
+Bengaluru,Karnataka,The Signature Inn,1200,3.8,260,"Majestic area, Bengaluru",https://www.tripadvisor.com/Hotel_Review-g297628-d4508811-Reviews-The_Signature_Inn-Bengaluru_Bangalore_District_Karnataka.html
+Jaipur,Rajasthan,Hotel Pearl Palace (Heritage),1400,8.5,2096,"Hathroi Fort Hari Kisan Somani Marg, Jaipur",https://www.booking.com/hotel/in/pearl-palace-jaipur.html
+Varanasi,Uttar Pradesh,Zostel Varanasi (hostel),800,8.4,null,Near Assi Ghat / Varanasi city center,https://www.agoda.com/zostel-varanasi-hostel/hotel/varanasi-in.html
+Rishikesh,Uttarakhand,Zostel Rishikesh,900,null,null,"Tapovan / Laxman Jhula area, Rishikesh",https://www.booking.com/hotel/in/zostel-rishikesh-2-0.html
+Agra,Uttar Pradesh,Hotel Sidhartha (near Taj),900,null,null,"Tajganj area, Agra (walking distance to Taj Mahal)",https://www.makemytrip.com/hotels/hotel_sidhartha_80_metres_from_taj_mahal-details-agra.html
+Goa,Goa,Zostel Goa (Anjuna),1200,null,null,"Anjuna, North Goa",https://www.zostel.com/destination/goa/stay/zostel-goa-anjuna-goah706
+Mumbai,Maharashtra,Hammock Hostels - Bandra,1200,9,321,"Bandra, Mumbai",https://www.booking.com/budget/city/in/bombay.html
+Mumbai,Maharashtra,"Taj The Trees, Mumbai",9000,9.2,555,"Central Suburbs, Mumbai",https://www.booking.com/budget/region/in/mumbai-region.en-gb.html
+Mumbai,Maharashtra,Hotel Naaz Executive,2000,7.8,150,"Naaz area, Mumbai",https://www.booking.com/budget/city/in/bombay.html
+New Delhi,Delhi,Hotel Urban Lion - IGI Airport Delhi,1600,8,420,"Near IGI Airport, New Delhi",https://www.booking.com/budget/city/in/new-delhi.html
+New Delhi,Delhi,Hotel Horizon By Shanti,1400,7.5,210,Central Delhi,https://www.booking.com/budget/city/in/new-delhi.html
+New Delhi,Delhi,Two Green Park,8000,8.8,980,"Green Park area, New Delhi",https://www.booking.com/budget/city/in/new-delhi.html
+Goa,Goa,Mistral by the sea,6500,9.3,132,"Benaulim, Goa",https://www.booking.com/budget/region/in/goa.html
+Goa,Goa,Tamasha Goa Vagator,3000,8,200,"Vagator, Goa",https://www.booking.com/budget/region/in/goa.html
+Goa,Goa,"The Hosteller Goa, Old Goa",1200,8.6,137,Old Goa,https://www.booking.com/budget/region/in/goa.html
+Visakhapatnam,Andhra Pradesh,Super Townhouse Visakhapatnam,1500,8.5,81,"Bandar, Visakhapatnam",https://www.booking.com/budget/city/in/visakhapatnam.html
+Visakhapatnam,Andhra Pradesh,Super Collection O Beach Road Near GITAM,2200,6.9,40,"Beach Road, Visakhapatnam",https://www.booking.com/budget/city/in/visakhapatnam.html
+Visakhapatnam,Andhra Pradesh,Kushi's Nap N Go Dormitory,800,8.4,17,"Dabagardens area, Visakhapatnam",https://www.booking.com/budget/city/in/visakhapatnam.html
+Bengaluru,Karnataka,FabHotel Greenwood Xpress Inn - Nr Manipal Hospital,2500,9.2,1040,"Near Manipal Hospital, Bengaluru",https://www.booking.com/city/in/bengaluru.html
+Bengaluru,Karnataka,Townhouse Ecity Inn,9000,8.9,450,"Electronic City, Bengaluru",https://www.booking.com/city/in/bengaluru.html
+Bengaluru,Karnataka,The Oberoi Bengaluru,15000,9.4,1200,"MG Road area, Bengaluru",https://www.booking.com/city/in/bengaluru.html
+Chennai,Tamil Nadu,ITC Grand Chola,14000,9,2100,"Nungambakkam, Chennai",https://www.booking.com/region/in/chennai.html
+Chennai,Tamil Nadu,Trident Chennai,10000,8.6,980,"Adyar, Chennai",https://www.booking.com/region/in/chennai.html
+Chennai,Tamil Nadu,Super Hotel O Purasaiwalkam Near Railway Station,1800,7.5,120,"Purasaiwalkam, Chennai",https://www.booking.com/region/in/chennai.html
+Kolkata,West Bengal,Super Collection O Ruby Formerly Hiland International,6000,8,400,"Near Dumdum Airport, Kolkata",https://www.booking.com/city/in/kolkata.html
+Kolkata,West Bengal,Raajkutir - IHCL SeleQtions,9000,9.1,230,Kolkata heritage area,https://www.booking.com/city/in/kolkata.html
+Kolkata,West Bengal,Treebo Petals Suites & Banquet - New Town,3500,7.8,150,"New Town, Kolkata",https://www.booking.com/city/in/kolkata.html
+Hyderabad,Telangana,Taj Falaknuma Palace,25000,9.6,1800,"Falaknuma, Hyderabad",https://www.booking.com/city/in/hyderabad.html
+Hyderabad,Telangana,Novotel Hyderabad Airport,8000,8.5,760,"Near Rajiv Gandhi Intl Airport, Hyderabad",https://www.booking.com/city/in/hyderabad.html
+Hyderabad,Telangana,Transit by Encalm - Nap and Shower,1200,7.9,90,"Airport transit facility, Hyderabad",https://www.booking.com/city/in/hyderabad.html
+Jaipur,Rajasthan,Hotel Pearl Palace (Heritage),1400,8.5,2096,"Hathroi Fort, Jaipur",https://www.booking.com/hotel/in/pearl-palace-jaipur.html
+Jaipur,Rajasthan,Trident Jaipur,9000,8.9,800,"Tonk Road, Jaipur",https://www.booking.com/city/in/jaipur.html
+Jaipur,Rajasthan,Alsisar Haveli,7000,8.8,350,"Civil Lines, Jaipur",https://www.booking.com/city/in/jaipur.html
+Agra,Uttar Pradesh,Hotel Sidhartha (near Taj),900,6.8,120,"Tajganj, Agra",https://www.makemytrip.com/hotels/hotel_sidhartha_80_metres_from_taj_mahal-details-agra.html
+Agra,Uttar Pradesh,"ITC Mughal, Agra",12000,9,1500,"Taj Ganj, Agra",https://www.booking.com/city/in/agra.html
+Agra,Uttar Pradesh,Hotel Atulyaa Taj,3000,8.2,400,"Near Taj Mahal, Agra",https://www.booking.com/city/in/agra.html
+Varanasi,Uttar Pradesh,Zostel Varanasi (hostel),800,8.4,200,"Assi Ghat, Varanasi",https://www.agoda.com/zostel-varanasi-hostel/hotel/varanasi-in.html
+Varanasi,Uttar Pradesh,BrijRama Palace - A Heritage Hotel,6000,8.7,500,Varanasi ghats,https://www.booking.com/city/in/varanasi.html
+Varanasi,Uttar Pradesh,"Taj Ganges, Varanasi",11000,9.2,900,"Ramnagar Road, Varanasi",https://www.booking.com/city/in/varanasi.html
+Kochi,Kerala,Fort House Hotel Kochi,1800,8,220,"Fort Kochi, Kochi",https://www.booking.com/city/in/kochi.html
+Kochi,Kerala,Taj Malabar Resort & Spa,12000,8.9,800,"Willington Island, Kochi",https://www.booking.com/city/in/kochi.html
+Kochi,Kerala,The River Hotel,4000,8.2,150,"Ernakulam, Kochi",https://www.booking.com/city/in/kochi.html
