@@ -27,16 +27,11 @@ class GeminiClient:
     def _retry_models(self) -> List[str]:
         base = self.model_name
         candidates = list(dict.fromkeys([
-            base,
-            base.replace("-latest", ""),
-            base + "-latest" if not base.endswith("-latest") else base,
-            base + "-001" if not base.endswith("-001") else base,
-            "gemini-2.5-flash",
-            "gemini-2.0-flash",
+            base
         ]))
         return candidates
 
-    def generate(self, prompt: str, temperature: float = 0.4, max_output_tokens: Optional[int] = 768) -> str:
+    def generate(self, prompt: str, temperature: float = 0.4, max_output_tokens: Optional[int] = 2000) -> str:
         last_err: Optional[Exception] = None
         for name in self._retry_models():
             try:
@@ -70,7 +65,7 @@ class GeminiClient:
             raise last_err
         return ""
 
-    def extract_json(self, prompt: str, temperature: float = 0.0, max_output_tokens: Optional[int] = 512) -> dict:
+    def extract_json(self, prompt: str, temperature: float = 0.0, max_output_tokens: Optional[int] = 2000) -> dict:
         """
         Generate a response and parse it as JSON. Returns an empty dict if parsing fails.
         """

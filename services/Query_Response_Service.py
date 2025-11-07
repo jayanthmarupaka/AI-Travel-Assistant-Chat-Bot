@@ -24,7 +24,8 @@ from config import (
     TOP_K,
     MODEL_NAME,
 )
-from services.Retrival_Service import Query, retrieve_buses, retrieve_flights, retrieve_hotels, retrieve_attractions
+
+from services.Retrieval_Service import Query, retrieve_buses, retrieve_flights, retrieve_hotels, retrieve_attractions
 from services.Gemini_Service import GeminiClient
 from services.Query_Extraction_service import (
     extract_bus_params_gemini,
@@ -36,9 +37,10 @@ from services.Query_Extraction_service import (
     format_currency,
     detect_intent,
 )
+
 def classify_intent(user_msg: str, api_key: str, model_name: Optional[str] = None) -> str:
     client = GeminiClient(api_key, model_name or MODEL_NAME)
-    label = client.generate(PROMPT_INTENT.format(user_message=user_msg), temperature=0.0, max_output_tokens=5)
+    label = client.generate(PROMPT_INTENT.format(user_message=user_msg), temperature=0.0, max_output_tokens=100)
     label = (label or "").strip().split()[0].lower()
     if label in {"greeting","bus","flight","hotel","attractions","itinerary","unknown"}:
         return label

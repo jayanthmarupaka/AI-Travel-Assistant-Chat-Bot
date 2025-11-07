@@ -11,6 +11,14 @@ from typing import Optional
 
 from rapidfuzz import fuzz
 
+from services.Gemini_Service import GeminiClient
+from config import (
+    PROMPT_EXTRACT_HOTEL_PARAMS,
+    PROMPT_EXTRACT_BUS_PARAMS,
+    PROMPT_EXTRACT_FLIGHT_PARAMS,
+    PROMPT_EXTRACT_ATTRACTION_PARAMS,
+    PROMPT_EXTRACT_ITINERARY_PARAMS
+)
 
 def normalize_message(msg: str) -> str:
     return msg.strip()
@@ -93,9 +101,6 @@ class ItineraryQuery:
 
 def extract_bus_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> RouteQuery:
     """Extract bus query parameters using Gemini."""
-    from services.Gemini_Service import GeminiClient
-    from config import PROMPT_EXTRACT_BUS_PARAMS
-    
     client = GeminiClient(api_key, model_name)
     prompt = PROMPT_EXTRACT_BUS_PARAMS.format(user_message=user_msg)
     result = client.extract_json(prompt, temperature=0.0)
@@ -108,17 +113,15 @@ def extract_bus_params_gemini(user_msg: str, api_key: str, model_name: str = "ge
             budget = int(result.get("budget"))
         except (ValueError, TypeError):
             # Fallback to regex parsing
-            budget = parse_budget(user_msg)
+            budget = 10000
     else:
-        budget = parse_budget(user_msg)
-    
+        budget = 10000
+
     return RouteQuery(source=source, destination=destination, budget=budget)
 
 
 def extract_flight_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> RouteQuery:
     """Extract flight query parameters using Gemini."""
-    from services.Gemini_Service import GeminiClient
-    from config import PROMPT_EXTRACT_FLIGHT_PARAMS
     
     client = GeminiClient(api_key, model_name)
     prompt = PROMPT_EXTRACT_FLIGHT_PARAMS.format(user_message=user_msg)
@@ -131,17 +134,15 @@ def extract_flight_params_gemini(user_msg: str, api_key: str, model_name: str = 
         try:
             budget = int(result.get("budget"))
         except (ValueError, TypeError):
-            budget = parse_budget(user_msg)
+            budget = 10000
     else:
-        budget = parse_budget(user_msg)
+        budget = 10000
     
     return RouteQuery(source=source, destination=destination, budget=budget)
 
 
 def extract_hotel_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> HotelQuery:
     """Extract hotel query parameters using Gemini."""
-    from services.Gemini_Service import GeminiClient
-    from config import PROMPT_EXTRACT_HOTEL_PARAMS
     
     client = GeminiClient(api_key, model_name)
     prompt = PROMPT_EXTRACT_HOTEL_PARAMS.format(user_message=user_msg)
@@ -153,17 +154,15 @@ def extract_hotel_params_gemini(user_msg: str, api_key: str, model_name: str = "
         try:
             budget = int(result.get("budget"))
         except (ValueError, TypeError):
-            budget = parse_budget(user_msg)
+            budget = 10000
     else:
-        budget = parse_budget(user_msg)
+        budget = 10000
     
     return HotelQuery(city=city, budget=budget)
 
 
 def extract_attraction_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> Optional[str]:
     """Extract city for attractions query using Gemini."""
-    from services.Gemini_Service import GeminiClient
-    from config import PROMPT_EXTRACT_ATTRACTION_PARAMS
     
     client = GeminiClient(api_key, model_name)
     prompt = PROMPT_EXTRACT_ATTRACTION_PARAMS.format(user_message=user_msg)
@@ -178,8 +177,6 @@ def extract_attraction_params_gemini(user_msg: str, api_key: str, model_name: st
 
 def extract_itinerary_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> ItineraryQuery:
     """Extract itinerary query parameters using Gemini."""
-    from services.Gemini_Service import GeminiClient
-    from config import PROMPT_EXTRACT_ITINERARY_PARAMS
     
     client = GeminiClient(api_key, model_name)
     prompt = PROMPT_EXTRACT_ITINERARY_PARAMS.format(user_message=user_msg)
@@ -207,10 +204,10 @@ def extract_itinerary_params_gemini(user_msg: str, api_key: str, model_name: str
         try:
             budget = int(result.get("budget"))
         except (ValueError, TypeError):
-            budget = parse_budget(user_msg)
+            budget = 10000
     else:
-        budget = parse_budget(user_msg)
-    
+        budget = 10000
+
     # Add budget to ItineraryQuery dataclass if needed
     return ItineraryQuery(num_days=num_days, source=source, destination=destination, budget=budget)
 
@@ -230,43 +227,10 @@ def fuzzy_city_match(a: str, b: str, threshold: int = 85) -> bool:
     return score >= threshold
 
 
-def extract_bus_query(text: str) -> RouteQuery:
-    budget = parse_budget(text)
-    # Non-greedy capture for cities and stop at common delimiters
-    # Examples handled: "from A to B", "from A to B under 5000"
-    patterns = [
-        r"from\s+([a-zA-Z\s]+?)\s+to\s+([a-zA-Z\s]+?)(?=\s*(?:under|within|budget|for|,|\.|$))",
-        r"from\s+([a-zA-Z\s]+?)\s+to\s+([a-zA-Z\s]+)$",
-    ]
-    src, dst = None, None
-    for p in patterns:
-        m = re.search(p, text, flags=re.I)
-        if m:
-            src, dst = m.group(1).strip(), m.group(2).strip()
-            break
-    return RouteQuery(src, dst, budget)
 
 
-def extract_flight_query(text: str) -> RouteQuery:
-    return extract_bus_query(text)
 
-
-def extract_hotel_query(text: str) -> HotelQuery:
-    budget = parse_budget(text)
-    # Capture city after "in" but stop at common delimiters like "under/budget/within/for" or punctuation/end
-    patterns = [
-        r"in\s+([a-zA-Z\s]+?)(?=\s*(?:under|within|budget|for|,|\.|$))",
-        r"in\s+([a-zA-Z\s]+)$",
-    ]
-    city = None
-    for p in patterns:
-        m = re.search(p, text, flags=re.I)
-        if m:
-            city = m.group(1).strip()
-            break
-    return HotelQuery(city, budget)
-
-
+## fallback if the gemini extraction fails to find city
 def extract_city_only(text: str) -> Optional[str]:
     m = re.search(r"in\s+([a-zA-Z\s]+)", text, flags=re.I)
     if m:
@@ -275,14 +239,5 @@ def extract_city_only(text: str) -> Optional[str]:
     tokens = re.findall(r"[a-zA-Z]+", text)
     return tokens[-1].title() if tokens else None
 
-
-def extract_itinerary_query(text: str) -> ItineraryQuery:
-    days = 3
-    m_days = re.search(r"(\d+)\s*-?\s*day", text, flags=re.I)
-    if m_days:
-        days = int(m_days.group(1))
-    m = re.search(r"from\s+([a-zA-Z\s]+)\s+to\s+([a-zA-Z\s]+)", text, flags=re.I)
-    src, dst = (m.group(1).strip(), m.group(2).strip()) if m else (None, extract_city_only(text))
-    return ItineraryQuery(days, src, dst)
 
 
