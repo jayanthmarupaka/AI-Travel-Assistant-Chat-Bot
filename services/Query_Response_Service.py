@@ -40,7 +40,8 @@ from services.Query_Extraction_service import (
 
 def classify_intent(user_msg: str, api_key: str, model_name: Optional[str] = None) -> str:
     client = GeminiClient(api_key, model_name or MODEL_NAME)
-    label = client.generate(PROMPT_INTENT.format(user_message=user_msg), temperature=0.0, max_output_tokens=100)
+    label = client.generate(PROMPT_INTENT.format(user_message=user_msg), temperature=0.0, max_output_tokens=2000)
+    
     label = (label or "").strip().split()[0].lower()
     if label in {"greeting","bus","flight","hotel","attractions","itinerary","unknown"}:
         return label

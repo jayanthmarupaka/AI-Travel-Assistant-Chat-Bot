@@ -31,7 +31,7 @@ class GeminiClient:
         ]))
         return candidates
 
-    def generate(self, prompt: str, temperature: float = 0.4, max_output_tokens: Optional[int] = 2000) -> str:
+    def generate(self, prompt: str, temperature: float = 0.4, max_output_tokens: Optional[int] = 10000) -> str:
         last_err: Optional[Exception] = None
         for name in self._retry_models():
             try:
@@ -65,7 +65,7 @@ class GeminiClient:
             raise last_err
         return ""
 
-    def extract_json(self, prompt: str, temperature: float = 0.0, max_output_tokens: Optional[int] = 2000) -> dict:
+    def extract_json(self, prompt: str, temperature: float = 0.0, max_output_tokens: Optional[int] = 10000) -> dict:
         """
         Generate a response and parse it as JSON. Returns an empty dict if parsing fails.
         """
