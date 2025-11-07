@@ -1,10 +1,17 @@
+import os
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
+
 from dataclasses import dataclass
 from typing import List, Optional, Tuple
 
 import pandas as pd
 
-from retrieval.loaders import load_bus, load_flights, load_hotels, load_attractions
-from utils.text import (
+from services.CSV_Service import load_bus, load_flights, load_hotels, load_attractions
+from services.Query_Extraction_service import (
     canonicalize_city,
     fuzzy_city_match,
     parse_budget,

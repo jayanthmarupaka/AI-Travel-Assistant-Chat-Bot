@@ -1,3 +1,10 @@
+import os
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
+
 from typing import Optional
 
 import pandas as pd
@@ -17,9 +24,9 @@ from config import (
     TOP_K,
     MODEL_NAME,
 )
-from retrieval.retriever import Query, retrieve_buses, retrieve_flights, retrieve_hotels, retrieve_attractions
-from services.gemini_client import GeminiClient
-from utils.text import (
+from services.Retrival_Service import Query, retrieve_buses, retrieve_flights, retrieve_hotels, retrieve_attractions
+from services.Gemini_Service import GeminiClient
+from services.Query_Extraction_service import (
     extract_bus_params_gemini,
     extract_flight_params_gemini,
     extract_hotel_params_gemini,

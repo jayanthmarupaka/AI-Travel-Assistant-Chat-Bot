@@ -1,9 +1,13 @@
 import os
-
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
 from dotenv import load_dotenv
 import google.generativeai as genai
 
-from services.gemini_client import GeminiClient
+from services.Gemini_Service import GeminiClient
 from config import MODEL_NAME
 
 

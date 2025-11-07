@@ -1,3 +1,10 @@
+import os
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
+
 import re
 from dataclasses import dataclass
 from typing import Optional
@@ -86,7 +93,7 @@ class ItineraryQuery:
 
 def extract_bus_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> RouteQuery:
     """Extract bus query parameters using Gemini."""
-    from services.gemini_client import GeminiClient
+    from services.Gemini_Service import GeminiClient
     from config import PROMPT_EXTRACT_BUS_PARAMS
     
     client = GeminiClient(api_key, model_name)
@@ -110,7 +117,7 @@ def extract_bus_params_gemini(user_msg: str, api_key: str, model_name: str = "ge
 
 def extract_flight_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> RouteQuery:
     """Extract flight query parameters using Gemini."""
-    from services.gemini_client import GeminiClient
+    from services.Gemini_Service import GeminiClient
     from config import PROMPT_EXTRACT_FLIGHT_PARAMS
     
     client = GeminiClient(api_key, model_name)
@@ -133,7 +140,7 @@ def extract_flight_params_gemini(user_msg: str, api_key: str, model_name: str = 
 
 def extract_hotel_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> HotelQuery:
     """Extract hotel query parameters using Gemini."""
-    from services.gemini_client import GeminiClient
+    from services.Gemini_Service import GeminiClient
     from config import PROMPT_EXTRACT_HOTEL_PARAMS
     
     client = GeminiClient(api_key, model_name)
@@ -155,7 +162,7 @@ def extract_hotel_params_gemini(user_msg: str, api_key: str, model_name: str = "
 
 def extract_attraction_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> Optional[str]:
     """Extract city for attractions query using Gemini."""
-    from services.gemini_client import GeminiClient
+    from services.Gemini_Service import GeminiClient
     from config import PROMPT_EXTRACT_ATTRACTION_PARAMS
     
     client = GeminiClient(api_key, model_name)
@@ -171,7 +178,7 @@ def extract_attraction_params_gemini(user_msg: str, api_key: str, model_name: st
 
 def extract_itinerary_params_gemini(user_msg: str, api_key: str, model_name: str = "gemini-2.5-flash") -> ItineraryQuery:
     """Extract itinerary query parameters using Gemini."""
-    from services.gemini_client import GeminiClient
+    from services.Gemini_Service import GeminiClient
     from config import PROMPT_EXTRACT_ITINERARY_PARAMS
     
     client = GeminiClient(api_key, model_name)

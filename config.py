@@ -25,6 +25,7 @@ PROMPT_BUS = (
 )
 
 PROMPT_FLIGHT = (
+    "Greet the user warmly by mentioning their name and a positive mood\n"
     "System: Use ONLY the flights provided. Write a concise, engaging paragraph that mentions 3–5 options, "
     "including airline, class, dep_time if available, time_taken, price (₹), and route. Keep the order as given.\n"
     "Context (top {k} flights under budget ₹{budget}):\n{context_rows}\n"

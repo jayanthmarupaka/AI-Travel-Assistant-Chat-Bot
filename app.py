@@ -1,8 +1,14 @@
 import os
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
+
 import streamlit as st
 from dotenv import load_dotenv
 
-from logic.handlers import (
+from services.Query_Response_Service import (
     handle_greeting,
     handle_bus_query,
     handle_flight_query,
@@ -10,8 +16,8 @@ from logic.handlers import (
     handle_attractions_query,
     handle_itinerary_query,
 )
-from utils.text import normalize_message
-from logic.handlers import classify_intent
+from services.Query_Extraction_service import normalize_message
+from services.Query_Response_Service import classify_intent
 from config import MODEL_NAME
 
 

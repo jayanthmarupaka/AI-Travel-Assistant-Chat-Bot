@@ -1,4 +1,10 @@
 import os
+import sys
+import warnings
+# Add project root to path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+warnings.filterwarnings("ignore")
+
 from typing import Optional, List
 import json
 
